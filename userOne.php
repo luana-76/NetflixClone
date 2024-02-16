@@ -11,7 +11,7 @@
     <link href='css/mainSeries.css' rel='stylesheet'/>
     <link href='css/responsivo.css/navigationBarResponsive.css' rel='stylesheet'/>
     <link href='css/responsivo.css/responsiveSeriesOfThemoment.css' rel='stylesheet'/>
-    
+    <link href='css/caixaPequena.css' rel='stylesheet'/>
 </head>
 <body>
 
@@ -115,9 +115,7 @@
     
                         </div>
                     </div>
-
                     
-
                     <!--Parte do usuário e configurações-->
                     <ul id='user_list'>
 
@@ -255,7 +253,7 @@
                 </button>
 
                 <!--  Parte 1-->
-                <img class='imgSerie inicioMortePCarona' id='saiki' alt="A morte pede carona" src="https://occ-0-933-420.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABY6DxnkIgrkMW2PHKu3MQ_incWy222mhVCdbbJxjiQ7B_QPVlnLBh4QKvRoOxq08uAMbtP-KTfP4FgDsorfEl0_At0C6tgXxiWs.webp?r=cc2">
+                <img class='imgSerie inicioMortePCarona' id='saiki' alt="Saiki" src="https://occ-0-933-420.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABY6DxnkIgrkMW2PHKu3MQ_incWy222mhVCdbbJxjiQ7B_QPVlnLBh4QKvRoOxq08uAMbtP-KTfP4FgDsorfEl0_At0C6tgXxiWs.webp?r=cc2">
   
                 <img class='imgSerie' alt="A morte pede carona" src="https://occ-0-933-420.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABfRYTi7CMLqPoaybZuGKI4WHNnHgDEpC0bfA3GC9D9gTtA9eY9E084ij9x9bEfulNAyfW60REPaFwAygmyN9ALkNyz0uR6mPqqMdWm847-z38cVbHGujrp8eJRFXULtWoN-G.jpg?r=e60">
 
@@ -778,8 +776,6 @@
     <script src="js/index.js">
 
         //Botão do video
-
-        
         //let imagem = document.querySelector('#mute')
         document.querySelector('video').onplay = e=>{
             document.querySelector('#mute').addEventListener('click', event=>{
