@@ -18,12 +18,12 @@
 
         </div>
 
-        <form action='usuario.php' method="get">
+        <form action='bancoDeDados/index.php' method="get"><!--usuario.php-->
 
 
             <div id="fillingOutTheForm">
 
-                <img src="https://occ-0-933-420.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABfjwXqIYd3kCEU6KWsiHSHvkft8VhZg0yyD50a_pHXku4dz9VgxWwfA2ontwogStpj1NE9NJMt7sCpSKFEY2zmgqqQfcw1FMWwB9.png?r=229" alt='profilePhoto'/>
+                <img src="https://occ-0-933-420.1.nflxso.net/dnm/api/v6/vN7bi_My87NPKvsBoib006Llxzg/AAAABfjwXqIYd3kCEU6KWsiHSHvkft8VhZg0yyD50a_pHXku4dz9VgxWwfA2ontwogStpj1NE9NJMt7sCpSKFEY2zmgqqQfcw1FMWwB9.png?r=229" name='perfil' alt='profilePhoto'/>
 
                 <input type="text" placeholder="Nome" id='name' name='name' required/>
 
